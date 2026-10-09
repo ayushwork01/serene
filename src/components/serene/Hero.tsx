@@ -15,7 +15,7 @@ export function Hero() {
           </p>
           <div className="rise mt-8 flex flex-wrap justify-center gap-3 lg:justify-start" style={{ animationDelay: "0.45s" }}>
             <a href="#creams"><SButton tabIndex={-1}>Explore Our Creams</SButton></a>
-            <a href="#trial"><SButton tabIndex={-1} variant="soft">Try a Cream</SButton></a>
+            {/* <a href="#trial"><SButton tabIndex={-1} variant="soft">Try a Cream</SButton></a> */}
           </div>
         </div>
         <div className="grid grid-cols-3 gap-3">

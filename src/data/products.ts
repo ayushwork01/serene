@@ -4,16 +4,30 @@
 // import Pina Nirvana from "@/assets/Pina Nirvana Cream & Sachet.png";
 // import Gulab Noir from "@/assets/Gulab Noir Cream & Sachet.png";
 
-import patchouliOrange from "@/assets/Patchouli Orange Cream & Sachet.png";
-import calmness from "@/assets/Calmness Cream & Sachet.png";
-import oceanThirst from "@/assets/Ocean Thirst Cream and Sachet.png";
-import pinaNirvana from "@/assets/Pina Nirvana Cream & Sachet.png";
-import gulabNoir from "@/assets/Gulab Noir Cream & Sachet.png";
+// import patchouliOrange from "@/assets/Patchouli Orange Cream & Sachet.png";
+// import calmness from "@/assets/Calmness Cream & Sachet.png";
+// import oceanThirst from "@/assets/Ocean Thirst Cream and Sachet.png";
+// import pinaNirvana from "@/assets/Pina Nirvana Cream & Sachet.png";
+// import gulabNoir from "@/assets/Gulab Noir Cream & Sachet.png";
+
+import patchouliOrange from "@/assets/Patchouli Orange.png";
+import calmness from "@/assets/Calmness.png";
+import oceanThirst from "@/assets/Ocean Thirst.png";
+import pinaNirvana from "@/assets/Pina Nirvana.png";
+import gulabNoir from "@/assets/Gulab Noir.png";
+
+import patchouliOrangeSachet from "@/assets/Patchouli Orange Cream & Sachet.png";
+import calmnessSachet from "@/assets/Calmness Cream & Sachet.png";
+import oceanThirstSachet from "@/assets/Ocean Thirst Cream and Sachet.png";
+import pinaNirvanaSachet from "@/assets/Pina Nirvana Cream & Sachet.png";
+import gulabNoirSachet from "@/assets/Gulab Noir Cream & Sachet.png";
+
 
 export type Product = {
   id: number;
   name: string;
   image: string;
+  sachetImage: string;
   description: string;
   notes: string;
 };
@@ -26,40 +40,79 @@ export type Product = {
 //   { id: 4, name: "Rose Bloom", image: rose, description: "A rich, nourishing cream with a delicate floral warmth.", notes: "Rose · Geranium · Shea" },
 //   { id: 5, name: "Sandalwood Serenity", image: sandalwood, description: "Warm and grounding, for a steady moment of calm.", notes: "Sandalwood · Cedar · Cocoa butter" },
 // ];
+// export const products: Product[] = [
+//   {
+//     id: 1,
+//     name: "Patchouli Orange",
+//     image: patchouliOrange,
+//     description: "Sweet citrus over warm, musky earth.",
+//     notes: "Citrus · Patchouli · Musk",
+//   },
+//   {
+//     id: 2,
+//     name: "Calmness",
+//     image: calmness,
+//     description: "Fresh, floral and herbaceous with a gentle apple-tree character.",
+//     notes: "Floral · Herbs · Apple",
+//   },
+//   {
+//     id: 3,
+//     name: "Ocean Thirst",
+//     image: oceanThirst,
+//     description: "Crisp sea salt air, ozone, and cool mint.",
+//     notes: "Sea Salt · Ozone · Mint",
+//   },
+//   {
+//     id: 4,
+//     name: "Pina Nirvana",
+//     image: pinaNirvana,
+//     description: "Sweet pineapple, creamy coconut, and warm vanilla.",
+//     notes: "Pineapple · Coconut · Vanilla",
+//   },
+//   {
+//     id: 5,
+//     name: "Gulab Noir",
+//     image: gulabNoir,
+//     description: "Deep, velvety rose layered with smoky, dark woods.",
+//     notes: "Rose · Smoky Woods · Dark Woods",
+//   },
+// ];
 export const products: Product[] = [
-  {
-    id: 1,
-    name: "Patchouli Orange",
+  { 
+    id: 1, name: "Patchouli Orange",
     image: patchouliOrange,
+    sachetImage: patchouliOrangeSachet,
     description: "Sweet citrus over warm, musky earth.",
-    notes: "Citrus · Patchouli · Musk",
-  },
-  {
-    id: 2,
-    name: "Calmness",
-    image: calmness,
-    description: "Fresh, floral and herbaceous with a gentle apple-tree character.",
-    notes: "Floral · Herbs · Apple",
-  },
-  {
-    id: 3,
-    name: "Ocean Thirst",
-    image: oceanThirst,
-    description: "Crisp sea salt air, ozone, and cool mint.",
-    notes: "Sea Salt · Ozone · Mint",
-  },
-  {
-    id: 4,
-    name: "Pina Nirvana",
-    image: pinaNirvana,
-    description: "Sweet pineapple, creamy coconut, and warm vanilla.",
-    notes: "Pineapple · Coconut · Vanilla",
-  },
-  {
-    id: 5,
-    name: "Gulab Noir",
-    image: gulabNoir,
-    description: "Deep, velvety rose layered with smoky, dark woods.",
-    notes: "Rose · Smoky Woods · Dark Woods",
+    notes: "Citrus · Patchouli · Musk", 
+  }, 
+  { 
+    id: 2, name: "Calmness", 
+    image: calmness, 
+    sachetImage: calmnessSachet, 
+    description: "Fresh, floral and herbaceous with a gentle apple-tree character.", 
+    notes: "Floral · Herbs · Apple", 
+  }, 
+  { 
+    id: 3, name: "Ocean Thirst", 
+    image: oceanThirst, 
+    sachetImage: oceanThirstSachet, 
+    description: "Crisp sea salt air, ozone, and cool mint.", 
+    notes: "Sea Salt · Ozone · Mint", 
+  }, 
+  { 
+    id: 4, 
+    name: "Pina Nirvana", 
+    image: pinaNirvana, 
+    sachetImage: pinaNirvanaSachet, 
+    description: "Sweet pineapple, creamy coconut, and warm vanilla.", 
+    notes: "Pineapple · Coconut · Vanilla", 
+  }, 
+  { 
+    id: 5, 
+    name: "Gulab Noir", 
+    image: gulabNoir, 
+    sachetImage: gulabNoirSachet, 
+    description: "Deep, velvety rose layered with smoky, dark woods.", 
+    notes: "Rose · Smoky Woods · Dark Woods", 
   },
 ];

@@ -6,7 +6,7 @@ export const navLinks = [
   { href: "#home", label: "Home" },
   { href: "#about", label: "About" },
   { href: "#creams", label: "Creams" },
-  { href: "#trial", label: "Try a Cream" },
+  // { href: "#trial", label: "Try a Cream" },
   { href: "#comments", label: "Comments" },
   { href: "#kit", label: "Customize Your Kit" },
 ];
